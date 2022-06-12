@@ -84,6 +84,10 @@ server <- function(input, output, session) {
       theme_bw() +
       theme(strip.background = element_rect(fill="white"),
             axis.text.x = element_text(angle=45, vjust=1, hjust=1),
+            axis.text = element_text(size=14),
+            axis.title = element_text(size=14),
+            strip.text.x = element_text(size = 20, colour = 'white'),
+            strip.background.x = element_rect(fill="black"),
             legend.position="none")
   })
   
